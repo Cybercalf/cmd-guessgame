@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++", //写c++换成g++
+            "args": [
+                "${fileDirname}\\*.cpp",
+                "-o",
+                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
+                "-g",
+                "-m64",
+                "-Wall",
+                "-static-libgcc",
+                "-fexec-charset=GBK",
+                "-std=c++17",
+                "-D_USE_MINGW_ANSI_STDIO",
+                "-lm",
+                "-O2",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "dependsOn": "build",
+            "command": "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new"
+            }
+        }
+    ]
+}
