@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "E:/__WORKSPACE/Cmake_test/Guess v6/bin/main.exe"
+			"path" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame/bin/main.exe"
 		},
 		{
-			"path" : "E:/__WORKSPACE/Cmake_test/Guess v6/bin/main.pdb"
+			"path" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame/bin/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "E:/__WORKSPACE/Cmake_test/Guess v6/src/../include"
+					"path" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame/src/../include"
 				}
 			],
 			"language" : "CXX",
@@ -70,7 +70,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{

@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/__WORKSPACE/Cmake_test/Guess v6/build"
+			"value" : "e:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "D:/_SDK/mingw64/bin/x86_64-w64-mingw32-g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "D:/_SDK/mingw64/bin/x86_64-w64-mingw32-gcc.exe"
 		},
 		{
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/__WORKSPACE/Cmake_test/Guess v6"
+			"value" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/__WORKSPACE/Cmake_test/Guess v6/build"
+			"value" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame/build"
 		},
 		{
 			"name" : "game_SOURCE_DIR",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/__WORKSPACE/Cmake_test/Guess v6"
+			"value" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame"
 		}
 	],
 	"kind" : "cache",

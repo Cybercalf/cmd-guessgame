@@ -32,7 +32,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -53,7 +53,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "main::@145eef247bfb46b6828c",
-					"jsonFile" : "target-main-Release-da44a16e32f5ce7281e0.json",
+					"jsonFile" : "target-main-Debug-5008d90f1f4b35383c45.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}
@@ -63,8 +63,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/__WORKSPACE/Cmake_test/Guess v6/build",
-		"source" : "E:/__WORKSPACE/Cmake_test/Guess v6"
+		"build" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame/build",
+		"source" : "E:/__WORKSPACE/Cmake_test/cmd-guessgame/cmd-guessgame"
 	},
 	"version" : 
 	{

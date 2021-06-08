@@ -7,7 +7,8 @@
     "C_Cpp.clang_format_sortIncludes": true,
     "files.associations": {
         "xlocnum": "cpp"
-    }, // 格式化时调整include的顺序（按字母排序）
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools", // 格式化时调整include的顺序（按字母排序）
     // "code-runner.runInTerminal": true, // 设置成false会在“输出”中输出，无法输入
     // "code-runner.executorMap": {
     //     "c": "gcc '$fileName' -o '$fileNameWithoutExt.exe' -Wall -O2 -m64 -lm -static-libgcc -fexec-charset=GBK -D__USE_MINGW_ANSI_STDIO && &'./$fileNameWithoutExt.exe'",
