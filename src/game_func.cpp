@@ -15,7 +15,7 @@ void gamePlay()
         play_time++;
         int guess_time_limit = 0;
 
-        puts("è¯·è¾“å…¥è¦çŒœæµ‹çš„æ¬¡æ•°ï¼š");
+        puts("ÇëÊäÈëÒª²Â²âµÄ´ÎÊı£º");
         while (1)
         {
             printf("%s", "? ");
@@ -23,7 +23,7 @@ void gamePlay()
             if (guess_time_limit > 0)
                 break;
             else
-                puts("æ ¼å¼è¾“å…¥é”™è¯¯ã€‚");
+                puts("¸ñÊ½ÊäÈë´íÎó¡£");
         }
 
         int magic_num = rand() % 10001;
@@ -33,14 +33,14 @@ void gamePlay()
         {
             if (guess_time >= guess_time_limit)
             {
-                printf("å¯¹ä¸èµ·ï¼Œæ‚¨å¤±è´¥äº†ã€‚æ­£ç¡®ç­”æ¡ˆä¸º%dã€‚\n", magic_num);
+                printf("¶Ô²»Æğ£¬ÄúÊ§°ÜÁË¡£ÕıÈ·´ğ°¸Îª%d¡£\n", magic_num);
                 end_guess = true;
             }
             else
             {
-                // è¾“å…¥çŒœæµ‹çš„æ•°å­—
+                // ÊäÈë²Â²âµÄÊı×Ö
                 int guess_num = -1;
-                puts("\nè¯·è¾“å…¥æ‚¨çŒœæµ‹çš„æ•°(æ•´æ•°ï¼ŒèŒƒå›´0-10000)ï¼š");
+                puts("\nÇëÊäÈëÄú²Â²âµÄÊı(ÕûÊı£¬·¶Î§0-10000)£º");
                 while (1)
                 {
                     printf("%s", "? ");
@@ -48,28 +48,28 @@ void gamePlay()
                     if (guess_num >= 0 && guess_num <= 10000)
                         break;
                     else
-                        puts("æ ¼å¼è¾“å…¥é”™è¯¯ã€‚");
+                        puts("¸ñÊ½ÊäÈë´íÎó¡£");
                 }
                 guess_time++;
                 guess_time_total++;
-                // åˆ¤æ–­å¤§å°
+                // ÅĞ¶Ï´óĞ¡
                 if (guess_num == magic_num)
                 {
-                    printf("æ­å–œæ‚¨çŒœæµ‹æ­£ç¡®ã€‚æ‚¨è¿™æ¬¡çŒœäº†%dæ¬¡ã€‚\n", guess_time);
+                    printf("¹§Ï²Äú²Â²âÕıÈ·¡£ÄúÕâ´Î²ÂÁË%d´Î¡£\n", guess_time);
                     success_time++;
                     end_guess = true;
                 }
                 else
                 {
                     if (guess_num > magic_num)
-                        puts("çŒœå¤§äº†ã€‚");
+                        puts("²Â´óÁË¡£");
                     else
-                        puts("çŒœå°äº†ã€‚");
+                        puts("²ÂĞ¡ÁË¡£");
                 }
             }
         }
         // after one round of guessing
-        puts("æœ¬è½®çŒœæµ‹ç»“æŸï¼å†æ¥ä¸€è½®ï¼Ÿ y/n:");
+        puts("±¾ÂÖ²Â²â½áÊø£¡ÔÙÀ´Ò»ÂÖ£¿ y/n:");
         printf("%s", "> ");
         bool qualified_input = false;
         while (!qualified_input)
@@ -79,15 +79,15 @@ void gamePlay()
             case 'N':
             case 'n':
                 puts("");
-                printf("ä½ ç©çš„æ¬¡æ•°ï¼š%d\n", play_time);
-                printf("æ€»çŒœæµ‹æ¬¡æ•°ï¼š%d\n", guess_time_total);
-                printf("å¹³å‡çŒœæµ‹æ¬¡æ•°ï¼š%.2f\n", guess_time_total * 1.0 / play_time);
-                printf("æˆåŠŸç‡ï¼š%.2f%%\n", 100 * success_time * 1.0 / play_time);
+                printf("ÄãÍæµÄ´ÎÊı£º%d\n", play_time);
+                printf("×Ü²Â²â´ÎÊı£º%d\n", guess_time_total);
+                printf("Æ½¾ù²Â²â´ÎÊı£º%.2f\n", guess_time_total * 1.0 / play_time);
+                printf("³É¹¦ÂÊ£º%.2f%%\n", 100 * success_time * 1.0 / play_time);
                 Sleep(500);
                 end_game = true;
             case 'Y':
             case 'y':
-                qualified_input = true; // Nã€næ²¡å†™breakï¼Œå››ä¸ªå­—æ¯å‡å¯é€€å‡ºwhile(!qualified_input)å¾ªç¯
+                qualified_input = true; // N¡¢nÃ»Ğ´break£¬ËÄ¸ö×ÖÄ¸¾ù¿ÉÍË³öwhile(!qualified_input)Ñ­»·
                 break;
             default:
                 break;

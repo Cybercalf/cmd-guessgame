@@ -18,11 +18,11 @@ void showDesktop(void)
 
 void showHelp(void)
 {
-    puts("\nè¿™æ˜¯ä¸€ä¸ªçŒœæ•°æ¸¸æˆï¼ŒçŒœå¯¹ç³»ç»Ÿç»™å‡ºçš„éšæœºæ•°å³èŽ·èƒœã€‚"
-         "\nè¯·æ ¹æ®æŒ‡ç¤ºè¡Œäº‹ï¼Œäº«å—æ¸¸æˆå¸¦æ¥çš„ä¹è¶£ã€‚"
-         "\nç¨‹åºéš¾å…æœ‰æ¼æ´žï¼Œå¦‚æœ‰å»ºè®®ï¼Œæ³è¯·æ‚¨è”ç³»ä½œè€…ï¼Œæ‰¹è¯„æŒ‡æ­£ã€‚"
+    puts("\nÕâÊÇÒ»¸ö²ÂÊýÓÎÏ·£¬²Â¶ÔÏµÍ³¸ø³öµÄËæ»úÊý¼´»ñÊ¤¡£"
+         "\nÇë¸ù¾ÝÖ¸Ê¾ÐÐÊÂ£¬ÏíÊÜÓÎÏ·´øÀ´µÄÀÖÈ¤¡£"
+         "\n³ÌÐòÄÑÃâÓÐÂ©¶´£¬ÈçÓÐ½¨Òé£¬¿ÒÇëÄúÁªÏµ×÷Õß£¬ÅúÆÀÖ¸Õý¡£"
          "\nAuthor: Cybercalf(Hu Weiming, Sichuan University)"
-         "\n2021.2.25");
+         "\n2021.6.15");
     system("pause");
 }
 
