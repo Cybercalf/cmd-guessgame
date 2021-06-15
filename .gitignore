@@ -43,7 +43,6 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
-build/*
 
 .vscode/*
 !.vscode/settings.json
@@ -101,6 +100,7 @@ build/*
 
 # CMake
 cmake-build-*/
+build/
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
