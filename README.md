@@ -1,6 +1,12 @@
 # cmd-guessgame
 A tiny game to play with the command line.
 
-You can simply clone, compile and run it on your computer.
+To clone it on your computer, type:
+```powershell
+git clone https://github.com/Cybercalf/cmd-guessgame.git
+```
 
-Notice that there're two `.bat` files, which ared used to easily compile the project with CMake. If CMake has already installed on your computer, click `generate.bat` to generate `main.exe` and execute it.
+To complie it, enter project folder and type:
+```powershell
+cmake
+```
