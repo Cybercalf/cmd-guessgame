@@ -1,5 +1,5 @@
 // All functions that return void and do not require a parameter
-#include "../include/game.h"
+#include "std_crate.h"
 
 void showDesktop(void)
 {

@@ -1,4 +1,5 @@
-#include "../include/game.h"
+#include "game.h"
+#include "std_crate.h"
 
 int main()
 {
