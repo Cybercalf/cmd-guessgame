@@ -3,6 +3,7 @@
 
 int main()
 {
+    system("chcp 65001");
     bool game_exit = false;
     while (!game_exit)
     {
