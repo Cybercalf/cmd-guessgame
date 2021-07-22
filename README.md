@@ -1,12 +1,15 @@
 # cmd-guessgame
 A tiny game to play with the command line.
 
-To clone it on your computer, type:
+Simply use git to clone it to your computer:
 ```powershell
 git clone https://github.com/Cybercalf/cmd-guessgame.git
 ```
 
-To complie it, enter project folder and type:
+To complie it,
+1. create folder `build`
+2. enter `build` folder
+3. type:
 ```powershell
-cmake
+cmake ..
 ```
