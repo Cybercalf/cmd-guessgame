@@ -1,9 +1,15 @@
-#include "game.h"
-#include "std_crate.h"
+#include "../game/game.h"
+#include <conio.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <windows.h>
 
 int main()
 {
-    system("chcp 65001");
     bool game_exit = false;
     while (!game_exit)
     {

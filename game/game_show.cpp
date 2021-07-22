@@ -1,5 +1,12 @@
 // All functions that return void and do not require a parameter
-#include "std_crate.h"
+#include <conio.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <windows.h>
 
 void showDesktop(void)
 {

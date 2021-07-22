@@ -1,6 +1,13 @@
 /* All functions that are important for running the game */
-#include "check_integer.h"
-#include "std_crate.h"
+#include "../check/check_integer.h"
+#include <conio.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <windows.h>
 
 void gamePlay()
 {
