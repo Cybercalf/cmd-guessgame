@@ -3,6 +3,6 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 # 给该目录下的所有源文件起一个别名
 aux_source_directory(./ DIR_LIB_SRCS)
 # 将该目录下的所有源文件在生成二进制链接库文件时被使用
-add_library(libcheck ${DIR_LIB_SRCS})
+add_library(check ${DIR_LIB_SRCS})
 
-target_compile_options(libcheck PRIVATE -fexec-charset=GBK)
+target_compile_options(check PRIVATE -fexec-charset=GBK)
